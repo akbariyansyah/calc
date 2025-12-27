@@ -33,10 +33,3 @@
     <p>Harga average kamu jadi {newAveragePrice}</p>
   {/if}
 </div>
-
-<style>
-  .container {
-    padding: 0 100px;
-    margin-top: 40px;
-  }
-</style>

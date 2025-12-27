@@ -67,8 +67,3 @@
 </div>
 
 
-<style>
-  .container {
-    padding: 0 100px;
-  }
-</style>
