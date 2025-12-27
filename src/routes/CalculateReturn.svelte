@@ -30,6 +30,8 @@
 
   {#if percentageValue > 0}
     <p>Profit kamu sebesar {percentageValue} %, senilai Rp {profit.toLocaleString("id-ID")}</p>
+    {:else if percentageValue < 0}
+    <p>Kamu rugi sebesar {percentageValue} %, senilai Rp {profit.toLocaleString("id-ID")}</p>
   {/if}
 </div>
 
